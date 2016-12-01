@@ -1,10 +1,10 @@
 # pg
 GUI library for the small embedded devices
 
-This repository is a dump of old, but still useful library. Do not expect to find documentation and examples.
+This repository is a dump of old, but still useful library. Do not expect to find shiny commented code, documentation and examples.
 
 Library was designed for a simple windowed GUIs, the ones used in coffemachines, instruments, old cellphones.
-Rendering is deferred - client creates and destoys objects, changes properties of existing objects.
+Rendering is deferred - client creates and destroys objects, changes properties of existing objects.
 Later client explicitly calls render(), library diffs changes and posts bitmap to the framebuffer.
 It is the client duty to transfer framebuffer to the actual hardware.
 
